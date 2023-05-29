@@ -1,0 +1,12 @@
+In t1
+javac *.java
+rmic ServerImpl
+rmiregistry
+
+In t2
+java Server
+
+In t3
+java Client 127.0.0.1 12 40
+
+

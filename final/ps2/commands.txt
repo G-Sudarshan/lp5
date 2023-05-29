@@ -1,0 +1,8 @@
+in t1
+javac *.java
+java MyServer
+
+in t2
+java MyClient 
+
+# then send messages 
