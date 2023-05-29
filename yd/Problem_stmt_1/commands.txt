@@ -1,0 +1,10 @@
+new terminal
+javac *.java
+rmic AddServerImpl
+rmiregistry
+
+new terminal 
+java AddServer
+
+new terminal
+java AddClient 127.0.0.1 12.5 13.6 

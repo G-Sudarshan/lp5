@@ -1,0 +1,8 @@
+module CalculatorModule {
+    interface Calculator {
+        float add(in float num1, in float num2);
+        float sub(in float num1, in float num2);
+        float mult(in float num1, in float num2);
+        float div(in float num1, in float num2);
+    };
+};

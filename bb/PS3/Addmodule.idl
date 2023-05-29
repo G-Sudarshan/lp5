@@ -1,0 +1,5 @@
+module AddModule{
+    interface AddModule{
+        double add(in double d1, in double d2);
+    };
+};

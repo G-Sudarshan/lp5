@@ -1,0 +1,5 @@
+module AddModule{
+    interface AddModule{
+        String add(in String d1, in String d2);
+    };
+};
